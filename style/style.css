@@ -1,55 +1,39 @@
-figure {
-    margin: 10px 10px 10px 10px;
-    height: 280px;
-}
-
-/*
-main {
-    display: flex;
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
     text-align: center;
-    justify-content: center;
 }
-*/
 
-main {
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
     background-color: hsl(212, 45%, 89%);
-    padding: 300px 770px 300px 770px;
-    height: fit-content;
-
 }
 
 .card {
-    display: grid;
     background-color: white;
-    width: 300px;
-    height: 450px;
-    margin: 10px 10px 10px 10px;
-    border-radius: 20px;
+    max-width: 320;
+    border-radius: 15px;
 }
 
 #qr-code {
-    width: 280px;
-    height: 280px;
-    border-radius: 20px;
+    max-width: 300px;
+    border-radius: 15px;
+    margin: 15px 15px 10px 15px;
 }
 
 #title {
-    margin: 5px 20px 5px 20px;
-    font: 20px Outfit, sans-serif ;
+    max-width: 300px;
+    margin: 10px 15px 10px 15px;
+    font-size: 1.5rem;
     font-weight: 700;
-    text-align: center;
-    word-wrap: break-word;
-    position: relative;
-    top: -10px;
-
 }
 
 #subtitle {
-    margin: 5px 20px 5px 20px;
-    font: 15px Outfit, italic;
-    font-weight: 400;
-    text-align: center;
-    word-wrap: break-word;
-    position: relative;
-    top: -15px;
+    max-width: 280px;
+    padding: 20px 20px 40px 20px;
 }
