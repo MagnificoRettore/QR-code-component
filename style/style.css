@@ -1,0 +1,55 @@
+figure {
+    margin: 10px 10px 10px 10px;
+    height: 280px;
+}
+
+/*
+main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+*/
+
+main {
+    background-color: hsl(212, 45%, 89%);
+    padding: 300px 770px 300px 770px;
+    height: fit-content;
+
+}
+
+.card {
+    display: grid;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+#qr-code {
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+#title {
+    margin: 5px 20px 5px 20px;
+    font: 20px Outfit, sans-serif ;
+    font-weight: 700;
+    text-align: center;
+    word-wrap: break-word;
+    position: relative;
+    top: -10px;
+
+}
+
+#subtitle {
+    margin: 5px 20px 5px 20px;
+    font: 15px Outfit, italic;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    position: relative;
+    top: -15px;
+}
